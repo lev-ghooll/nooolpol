@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-width: 90%-5px;
+    --main-color: #E4E2D3;
+}
+
+body {
+    width: var(--main-width);
+    height: auto;
+    background-color: var(--main-color);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 80px;
+}
+
+header {
+    width: 100%;
+    height: calc(3*25px);
+    border-bottom: 1px solid black;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding-left: 5px;
+
+    background-color: rgb(255, 242, 227);
+}
+
+menu, div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.blck-nose {
+    display: flex;
+    flex-direction: column;
+}
+.elem-box21 {
+    width: 250px;
+    height: 20px;
+    margin-right: 200px;
+}
+
+/* div {
+    display: flex;
+    flex-direction: row;
+} */
+
+li {
+    list-style: none;
+    margin: 3em;
+}
+#firstBlock {
+    border-right: 1px solid black;
+    height: 75px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box {
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.box1 {
+    width: 530px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.blck-arm, .elem-box17 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
+.blck-arm, .elem-box18 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
+.blck-arm, .elem-box19{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
+.green {
+    margin-top: 10px;
+}
+.blue {
+    margin-top: 10px;
+}
+.box3 {
+    margin-top: 10px;
+}
+.box4 {
+    margin-top: 10px;
+}
+.box5 {
+    margin-top: 10px;
+}
+.box6 {
+    margin-top: 10px;
+}
+.red {
+    margin-top: 10px;
+}
+.cyan {
+    margin-top: 10px;
+}
+.green {
+    margin-top: 10px;
+}
+
+.blck-arm, .elem-box20 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
+.blck-arm, .brown {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
+.blck-basket, .blck-foot {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.blck-basket, .blck-box {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 45px;
+    margin-top: 10px;
+}
+.blck-basket, .elem-box2 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 45px;
+    margin-top: 10px;
+}
+.blck-basket, .elem-box3 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 45px;
+    margin-top: 10px;
+}
+.blck-basket, .elem-box4 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 45px;
+    margin-top: 10px;
+}
+.blck-basket, .elem-box5 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 45px;
+    margin-top: 10px;
+}
+.blck-basket, .elem-box6 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 45px;
+    margin-top: 10px;
+}
+.blck-basket, .elem-box7{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 45px;
+    margin-top: 10px;
+}
+.blck-basket, .elem-box8 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 45px;
+    margin-top: 10px;
+}
+.blck-basket, .yellow {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 45px;
+    margin-top: 10px;
+}
+.text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+}
+main>div {
+    margin: 10px;
+}
