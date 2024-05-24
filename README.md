@@ -1,1 +1,1 @@
-сайт  https://lev-ghooll.github.io/nooolpolindex/
+сайт  https://lev-ghooll.github.io/nooolpol/index/
